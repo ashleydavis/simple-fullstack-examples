@@ -1,0 +1,22 @@
+{
+  "name": "example-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "javascript",
+    "fullstack",
+    "Nodejs",
+    "Node.js",
+    "frontend",
+    "backend"
+  ],
+  "author": "ashley@codecapers.com.au",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
