@@ -1,19 +1,19 @@
-# Example-2
+# Example-3
 
 Riffing on the simplest possible "fullstack" application.
 
 Still just a static HTTP server that's serving a minimal frontend.
 
-Example-2 adds suport for live reload.
+Example-3 adds a simple HTTP GET REST API that returns data for display in the front end.
 
-You should try "diffing" Example-2 against Example-1 to see the changes.
+You should try "diffing" Example-3 against Example-2 to see the changes.
 
 ## Setup
 
 Open a terminal, change directory into the repo and invoke these commands:
 
 ```bash
-cd example-2
+cd example-3
 npm install
 ```
 
@@ -25,9 +25,11 @@ After setup, invoke this command to start the HTTP server:
 npm start
 ```
 
-Now point your web browser at:
+To see the web page open:
 [http://localhost:3000](http://localhost:3000)
 
+**To see the results of the REST API open:**
+[http://localhost:3000/my-rest-api](http://localhost:3000/my-rest-api)
 
 ## Live reload
 
@@ -37,6 +39,4 @@ When you run this example in "live reload" mode the HTTP server will automatical
 npm run start:dev
 ````
 
-This is a really nice way to make a fast development process. 
-
-Have fun playing with the code!
+Have fun with it!
