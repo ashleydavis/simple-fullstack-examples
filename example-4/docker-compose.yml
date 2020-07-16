@@ -1,0 +1,28 @@
+version: '3'
+services:
+
+  db:
+    image: mongo
+    container_name: db
+    ports:
+     - "27017:27017"
+    restart: always
+
+  server:
+    image: server
+    build: 
+      context: ./
+      dockerfile: ./Dockerfile-dev
+    container_name: server
+    volumes:
+     - /tmp/npm-cache:/root/.npm:z
+     - ./src:/usr/src/app/src:z
+     - ./public:/usr/src/app/public:z
+    ports:
+     - "3000:3000"
+    environment:
+     - DBHOST=mongodb://db:27017
+    depends_on:
+     - db
+    restart: always
+

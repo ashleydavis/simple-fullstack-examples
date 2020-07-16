@@ -6,6 +6,9 @@ It's literally just a static HTTP server that's serving a minimal frontend.
 
 ## Setup
 
+First have Node.js installed. Io install follow the instructions here:
+https://nodejs.org/en/download/
+
 Open a terminal, change directory into the repo and invoke these commands:
 
 ```bash

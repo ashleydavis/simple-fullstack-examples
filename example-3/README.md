@@ -10,6 +10,9 @@ You should try "diffing" Example-3 against Example-2 to see the changes.
 
 ## Setup
 
+First have Node.js installed. Io install follow the instructions here:
+https://nodejs.org/en/download/
+
 Open a terminal, change directory into the repo and invoke these commands:
 
 ```bash
