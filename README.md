@@ -4,6 +4,8 @@ Minimal examples of Node.js fullstack applications.
 
 This is to show that, at least in principal "fullstack" isn't that difficult.
 
+If you like this project, please star this repo and [support my work](https://www.codecapers.com.au/about#support-my-work)
+
 ## Setup
 
 You need Node.js installed to try out these examples.
