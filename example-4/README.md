@@ -76,6 +76,8 @@ Docker and Docker-Compose make it easy to package, share and start your developm
 
 If you are using Windowws 10 Home (like me) then you can't run Docker directly on your computer. 
 
+NOTE: These days I recommend using WSL2 to run Docker on Windows instead of Vagrant.
+
 If you'd like to try this example using Docker, you can but you'll have to run it under a Linux virtual machine.
 
 If you already have Vagrant installed ([see here for install instructions[(https://www.vagrantup.com/docs/installation)]) you can can boot a VM easily and I've included a Vagrantfile in this repository to make it even easier for you.
